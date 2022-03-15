@@ -1,4 +1,4 @@
-package br.com.meli;
+package br.com.meli.service;
 
 public class Cobrador extends Cliente {
 
@@ -11,11 +11,11 @@ public class Cobrador extends Cliente {
     }
 
     public void sacarDinheiro() {
-        saqueDinheiro.transacaoOk();
+        saqueDinheiro.transacao();
     }
 
     public void consultarSaldo() {
-        consultaSaldo.transacaoOk();
+        consultaSaldo.transacao();
     }
 
 

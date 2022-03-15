@@ -1,4 +1,4 @@
-package br.com.meli;
+package br.com.meli.service;
 
 public class Executivo extends Cliente {
     private final Transacao transferencia;
@@ -10,10 +10,10 @@ public class Executivo extends Cliente {
     }
 
     public void transferir() {
-        transferencia.transacaoOk();
+        transferencia.transacao();
     }
 
     public void depositar() {
-        deposito.transacaoOk();
+        deposito.transacao();
     }
 }

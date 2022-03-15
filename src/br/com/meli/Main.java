@@ -1,5 +1,7 @@
 package br.com.meli;
 
+import br.com.meli.service.*;
+
 public class Main {
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-package br.com.meli;
+package br.com.meli.service;
 
 public abstract class Cliente {
 }

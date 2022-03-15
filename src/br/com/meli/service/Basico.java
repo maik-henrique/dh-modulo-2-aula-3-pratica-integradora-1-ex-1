@@ -1,4 +1,4 @@
-package br.com.meli;
+package br.com.meli.service;
 
 public class Basico extends Cliente {
 
@@ -13,14 +13,14 @@ public class Basico extends Cliente {
     }
 
     public void consultarSaldo() {
-        consultaSaldo.transacaoNaoOk();
+        consultaSaldo.transacao();
     }
 
     public void saque() {
-        saqueDinheiro.transacaoOk();
+        saqueDinheiro.transacao();
     }
 
     public void pagar() {
-        pagamentoServico.transacaoOk();
+        pagamentoServico.transacao();
     }
 }
